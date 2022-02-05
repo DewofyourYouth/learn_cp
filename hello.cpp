@@ -16,8 +16,9 @@ int main()
     int b = 23;
     int c = 34;
     cout << "What is your name? ";
-    cin >> name;
-    for (int i = 0; i < name.size(); i++) {
+    getline(cin, name);
+    for (int i = 0; i < name.size(); i++)
+    {
         cout << "[" << i << "]: " << name[i] << "\n";
     }
     cout << "Hello " << name << "!\n";
@@ -25,5 +26,6 @@ int main()
     cout << addNums(a, b) << "\n";
     myBMW.printCarData();
     myTesla.printCarData();
+    cout << __cplusplus << '\n';
     return 0;
 }
