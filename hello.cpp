@@ -17,10 +17,10 @@ int main()
     int c = 34;
     cout << "What is your name? ";
     getline(cin, name);
-    for (int i = 0; i < name.size(); i++)
-    {
-        cout << "[" << i << "]: " << name[i] << "\n";
-    }
+    // for (int i = 0; i < name.size(); i++)
+    // {
+    //     cout << "[" << i << "]: " << name[i] << "\n";
+    // }
     cout << "Hello " << name << "!\n";
     cout << addNums(c, b) << "\n";
     cout << addNums(a, b) << "\n";
