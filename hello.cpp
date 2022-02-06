@@ -26,6 +26,5 @@ int main()
     cout << addNums(a, b) << "\n";
     myBMW.printCarData();
     myTesla.printCarData();
-    cout << __cplusplus << '\n';
     return 0;
 }
